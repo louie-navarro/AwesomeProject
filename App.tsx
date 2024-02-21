@@ -2,7 +2,7 @@ import {View, Text} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import {BatteryFetcher} from '@asurion-private/heka-rn';
 
-const App = async () => {
+const App = () => {
   const [capacity, setCapacity] = useState<string>();
 
   useEffect(() => {
